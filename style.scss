@@ -1,0 +1,69 @@
+
+//      GENERAL
+ // ALL IMPORTANT IMPORT (VARIABLES, PLACEHOLDERS, MIXINS...)
+ 
+@import 'Sass/Utils/_Variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+%max-size{
+    height: 100vh;
+    width: 100%;
+}
+%main-div-parameter{
+    border-radius: 10px;
+    background-color: beige;
+    height: 25vh;
+    width: 25vw;
+}
+*{
+    font-family: 'Montserrat', sans-serif;;
+}
+body{
+    @extend %max-size;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+//          HEADER
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $color-backgroud;
+    color: $color-txt;
+    font-size: 1.5rem;
+    height: 10vh;
+    width: 100%;
+    #header-logo img{
+        //margin-left: 5rem;
+        height: 6vh;
+        width: 13vw;
+    }
+    #nav-Header{
+        display: flex;
+        list-style-type: none;
+        li{
+            margin-right: 1rem;
+            font-weight: bolder;
+        }
+    }
+}
+
+//          MAIN OF THE WEBSITES
+main{
+    @extend %max-size;
+    text-align: center;
+    #website-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: auto;
+        height: 100vh;
+        width: 90%;
+    .website-div{
+        @extend %main-div-parameter;
+    }
+    }
+}
+
+// Footer
