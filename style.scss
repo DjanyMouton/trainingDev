@@ -11,11 +11,18 @@
 %main-div-parameter{
     border-radius: 10px;
     background-color: beige;
+    border: 0.01px rgba(0, 0, 0, 0.11) solid;
     height: 25vh;
     width: 25vw;
 }
+%background-div-websites{
+    background-position: center;
+    background-size: cover;
+}
 *{
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 body{
     @extend %max-size;
@@ -63,6 +70,20 @@ main{
     .website-div{
         @extend %main-div-parameter;
     }
+    }
+    #OpenClassrooms{
+        @extend %background-div-websites;
+        background-image: url(/Image/Openclassrooms.png);
+    }
+    .link-div-txt{
+        height: 200px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.403);
+        color: black;
+        //visibility: hidden;
+        //:hover{
+            //visibility: visible;
+        //}
     }
 }
 
