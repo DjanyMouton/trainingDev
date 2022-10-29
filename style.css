@@ -1,1 +1,45 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  color: #2d3436;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header, body {
+  height: 100vh;
+  width: 100%;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9b94fc;
+}
+#header #h1Header {
+  margin: 10px;
+  font-size: 7rem;
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+}
+#header #buttonList {
+  display: flex;
+  justify-content: space-around;
+  width: 50vw;
+}
+#header .headerLink:hover {
+  background-color: #bab5ff;
+  transition: 1s;
+  border-radius: 5px;
+}
+#header .headerButton {
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  border: 0.5px solid #2d3436;
+  border-radius: 5px;
+  background: none;
+  height: 50px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
