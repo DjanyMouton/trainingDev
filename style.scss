@@ -21,23 +21,23 @@ body{
     justify-content: center;
     align-items: center;
     background-color: $color-primary;
-    #h1Header{
+    #h1_header{
         margin:10px;
         font-size: 7rem;
         font-family: 'Playfair Display', serif;
         font-weight: lighter;
     }
-    #buttonList{
+    #button_list{
         display: flex;
         justify-content: space-around;
         width: 50vw;
     }
-    .headerLink:hover{
+    .header_link:hover{
         background-color: #bab5ff;
         transition: 1s;
         border-radius: 5px;
     }
-    .headerButton{
+    .header_button{
         font-size: 1.5rem;
         padding: 5px 10px;
         border: 0.5px solid #2d3436;
