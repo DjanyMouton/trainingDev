@@ -1,19 +1,18 @@
+@import "./Sass/Utils/_Variables";
+@import "./Sass/Utils/Placeholders";
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-$color-primary:#9b94fc;
-$color-secondary:#2d3436;
 *{
     color:#2d3436;
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
-%max-size{
-    height: 100vh;
-    width: 100%;
-}
 body{
     @extend %max-size;
 }
+
+// HEADER //
+
 #header{
     @extend %max-size;
     display: flex;
@@ -56,3 +55,4 @@ body{
         cursor: pointer;
     }
 }
+

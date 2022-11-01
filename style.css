@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+#header, body {
+  height: 100vh;
+  width: 100%;
+}
+
 * {
   color: #2d3436;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-#header, body {
-  height: 100vh;
-  width: 100%;
 }
 
 #header {

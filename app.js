@@ -20,4 +20,4 @@ console.log(headerMenu);
 const appearButton = setTimeout(() => {
     headerMenu.classList.add("visible");
     
-}, 1500)
+}, 1150)
