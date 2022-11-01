@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-#header, body {
+#formation_section, #header, body {
   height: 100vh;
   width: 100%;
+}
+
+#formation_section #formation_h1, #header #h1_header {
+  font-weight: lighter;
 }
 
 * {
@@ -9,6 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #9b94fc;
 }
 
 #header {
@@ -22,7 +27,6 @@
   margin: 10px;
   font-size: 7rem;
   font-family: "Playfair Display", serif;
-  font-weight: lighter;
 }
 #header #button_list {
   display: flex;
@@ -64,4 +68,16 @@
   background: none;
   height: 50px;
   cursor: pointer;
+}
+#header #lisere {
+  width: 90vw;
+  border-bottom: solid 0.5px #2d3436;
+  position: absolute;
+  bottom: 0;
+}
+
+#formation_section #formation_h1 {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 3rem;
 }/*# sourceMappingURL=style.css.map */
