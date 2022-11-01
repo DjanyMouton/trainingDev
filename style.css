@@ -28,6 +28,28 @@
   display: flex;
   justify-content: space-around;
   width: 50vw;
+  visibility: hidden;
+}
+#header #button_list.visible {
+  visibility: visible;
+  -webkit-animation: fadeIn 2s;
+          animation: fadeIn 2s;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 #header .header_link:hover {
   background-color: #bab5ff;

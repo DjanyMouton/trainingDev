@@ -31,7 +31,16 @@ body{
         display: flex;
         justify-content: space-around;
         width: 50vw;
+        visibility: hidden;
     }
+    #button_list.visible{
+        visibility: visible;
+        animation: fadeIn 2s;
+    }
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
     .header_link:hover{
         background-color: #bab5ff;
         transition: 1s;
