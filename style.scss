@@ -73,4 +73,37 @@ body{
         font-size: 3rem;
         @extend %lighter-font-weight;
     }
+    .formation_div{
+        margin: 10px;
+        height: 30vh;
+        width: 30vw;
+        border-radius: 5px;
+        background: rgb(219, 219, 255);
+        border-style: black solid 0.5px;
+    }
+    #formation_parameter{
+        display: flex;
+        flex-direction: column;
+        @extend %flex-center;
+    }
+    #openclassrooms{
+        @extend %flex-center;
+        background: url(/Image/Formation/openclassrooms.png);
+        background-size: cover;
+    }
+    // Créer placeholders pour background none, height and width //
+    #openclassrooms_link{
+        @extend %flex-center;
+        text-decoration: none;
+        height: 30vh;
+        width: 30vw;
+        background: none;
+        font-size: 2.5rem;
+        visibility: hidden;
+    }
+    #openclassrooms:hover #openclassrooms_link{
+        visibility:visible;
+        background:rgba(219, 219, 255, 0.481);
+        transition: 0.5s;
+    }
 }
