@@ -91,19 +91,12 @@ body{
         background: url(/Image/Formation/openclassrooms.png);
         background-size: cover;
     }
-    // Créer placeholders pour background none, height and width //
+
     #openclassrooms_link{
         @extend %flex-center;
-        text-decoration: none;
-        height: 30vh;
-        width: 30vw;
-        background: none;
-        font-size: 2.5rem;
-        visibility: hidden;
+        @extend %div-parameter;
     }
     #openclassrooms:hover #openclassrooms_link{
-        visibility:visible;
-        background:rgba(219, 219, 255, 0.481);
-        transition: 0.5s;
+        @extend %div-parameter-hover;
     }
 }
