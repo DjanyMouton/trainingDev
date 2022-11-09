@@ -101,6 +101,18 @@ body{
     #openclassrooms:hover #openclassrooms_link{
         @extend %link-parameter-hover;
     }
+    #oclock{
+        @extend %flex-center;
+        background: url(/Image/Formation/Oclock.png);
+        background-size: cover;
+    }
+    #oclock_link{
+        @extend %flex-center;
+        @extend %link-parameter;
+    }
+    #oclock:hover #oclock_link{
+        @extend %link-parameter-hover;
+    }
     // Créer dimension pour les link
 }
 

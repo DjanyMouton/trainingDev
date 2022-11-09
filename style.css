@@ -8,13 +8,13 @@
   font-weight: lighter;
 }
 
-#formation_section #openclassrooms_link, #formation_section #openclassrooms, #formation_section #formation_div_container {
+#formation_section #oclock_link, #formation_section #oclock, #formation_section #openclassrooms_link, #formation_section #openclassrooms, #formation_section #formation_div_container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#formation_section #openclassrooms_link {
+#formation_section #oclock_link, #formation_section #openclassrooms_link {
   visibility: hidden;
   min-width: 35vw;
   font-size: 2.5rem;
@@ -24,9 +24,9 @@
   border-radius: 10px;
 }
 
-#formation_section #openclassrooms:hover #openclassrooms_link {
+#formation_section #oclock:hover #oclock_link, #formation_section #openclassrooms:hover #openclassrooms_link {
   visibility: visible;
-  background: rgba(219, 219, 255, 0.481);
+  background: rgba(219, 219, 255, 0.632);
   transition: 0.5s;
 }
 
@@ -120,5 +120,9 @@
 }
 #formation_section #openclassrooms {
   background: url(/Image/Formation/openclassrooms.png);
+  background-size: cover;
+}
+#formation_section #oclock {
+  background: url(/Image/Formation/Oclock.png);
   background-size: cover;
 }/*# sourceMappingURL=style.css.map */
