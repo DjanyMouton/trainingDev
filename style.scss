@@ -85,7 +85,7 @@ body{
         margin: 30px;
         height: 35vh;
         min-width: 35vw;
-        border-radius: 5px;
+        border-radius: 10px;
         background: rgb(219, 219, 255);
         border-style: black solid 0.5px;
     }
@@ -101,6 +101,7 @@ body{
     #openclassrooms:hover #openclassrooms_link{
         @extend %link-parameter-hover;
     }
+
     #oclock{
         @extend %flex-center;
         background: url(/Image/Formation/Oclock.png);
@@ -113,6 +114,7 @@ body{
     #oclock:hover #oclock_link{
         @extend %link-parameter-hover;
     }
+
     #udemy{
         @extend %flex-center;
         background: url(/Image/Formation/Udemy.png);
@@ -123,6 +125,19 @@ body{
         @extend %link-parameter;
     }
     #udemy:hover #udemy_link{
+        @extend %link-parameter-hover;
+    }
+
+    #Code42{
+        @extend %flex-center;
+        background: url(/Image/Formation/42.png);
+        background-size: cover;
+    }
+    #Code42_link{
+        @extend %flex-center;
+        @extend %link-parameter;
+    }
+    #Code42:hover #Code42_link{
         @extend %link-parameter-hover;
     }
     // Créer dimension pour les link

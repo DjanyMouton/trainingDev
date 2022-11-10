@@ -8,13 +8,13 @@
   font-weight: lighter;
 }
 
-#formation_section #udemy_link, #formation_section #udemy, #formation_section #oclock_link, #formation_section #oclock, #formation_section #openclassrooms_link, #formation_section #openclassrooms, #formation_section #formation_div_container {
+#formation_section #Code42_link, #formation_section #Code42, #formation_section #udemy_link, #formation_section #udemy, #formation_section #oclock_link, #formation_section #oclock, #formation_section #openclassrooms_link, #formation_section #openclassrooms, #formation_section #formation_div_container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#formation_section #udemy_link, #formation_section #oclock_link, #formation_section #openclassrooms_link {
+#formation_section #Code42_link, #formation_section #udemy_link, #formation_section #oclock_link, #formation_section #openclassrooms_link {
   visibility: hidden;
   min-width: 35vw;
   font-size: 2.5rem;
@@ -24,9 +24,9 @@
   border-radius: 10px;
 }
 
-#formation_section #udemy:hover #udemy_link, #formation_section #oclock:hover #oclock_link, #formation_section #openclassrooms:hover #openclassrooms_link {
+#formation_section #Code42:hover #Code42_link, #formation_section #udemy:hover #udemy_link, #formation_section #oclock:hover #oclock_link, #formation_section #openclassrooms:hover #openclassrooms_link {
   visibility: visible;
-  background: rgba(219, 219, 255, 0.632);
+  background: rgba(219, 219, 255, 0.752);
   transition: 0.5s;
 }
 
@@ -114,7 +114,7 @@
   margin: 30px;
   height: 35vh;
   min-width: 35vw;
-  border-radius: 5px;
+  border-radius: 10px;
   background: rgb(219, 219, 255);
   border-style: black solid 0.5px;
 }
@@ -128,5 +128,9 @@
 }
 #formation_section #udemy {
   background: url(/Image/Formation/Udemy.png);
+  background-size: cover;
+}
+#formation_section #Code42 {
+  background: url(/Image/Formation/42.png);
   background-size: cover;
 }/*# sourceMappingURL=style.css.map */
