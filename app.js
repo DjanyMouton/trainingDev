@@ -13,7 +13,7 @@ const titleInterval = setInterval(() => {
     }
 }, 100);
 
-// Animation header menu 
+// Animation header menu apparition
 
 let headerMenu = document.querySelector("#button_list");
 console.log(headerMenu);
