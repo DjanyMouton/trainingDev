@@ -4,24 +4,30 @@
   width: 100%;
 }
 
-#formation_section, #header {
-  height: 100vh;
-  width: 90vw;
-}
-
-#formation_section #formation_h1, #header #h1_header {
-  font-weight: lighter;
-}
-
-#header {
-  border-bottom: 0.5px #2d3436 solid;
-}
-
 #formation_section #Code42_link, #formation_section #Code42, #formation_section #udemy_link, #formation_section #udemy, #formation_section #oclock_link, #formation_section #oclock, #formation_section #openclassrooms_link, #formation_section #openclassrooms, #formation_section #formation_div_container, #header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#formation_section #formation_h1, #header #h1_header, #training_section #training_h1 {
+  font-weight: lighter;
+}
+
+#formation_section, #header {
+  height: 100vh;
+  width: 90vw;
+}
+
+#training_section #training_h1 {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 4rem;
+}
+
+#header {
+  border-bottom: 0.5px #1f2425 solid;
 }
 
 #formation_section #Code42_link, #formation_section #udemy_link, #formation_section #oclock_link, #formation_section #openclassrooms_link {
@@ -54,11 +60,11 @@ body {
 }
 
 #header #h1_header {
-  margin: 10px;
   font-size: 7rem;
   font-family: "Playfair Display", serif;
 }
 #header #button_list {
+  margin: 2rem;
   display: flex;
   justify-content: space-around;
   width: 50vw;
@@ -121,7 +127,6 @@ body {
   min-width: 35vw;
   border-radius: 10px;
   background: rgb(219, 219, 255);
-  border-style: black solid 0.5px;
 }
 #formation_section .formation-div-title {
   background: none;

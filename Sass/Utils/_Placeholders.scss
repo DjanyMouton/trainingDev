@@ -1,24 +1,39 @@
+// GENERAL //
+
 %max-size{
     height: 100vh;
     width: 100%;
 }
-%section-size{
-    height: 100vh;
-    width: 90vw;
-}
-%lighter-font-weight{
-    font-weight: lighter;
-}
-%border-bottom-section{
-    border-bottom: 0.5px $color-secondary solid;
-}
+
 %flex-center{
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
 }
-%link-parameter{
+
+%lighter-font-weight{
+    font-weight: lighter;
+}
+// SECTION PARAMETER //
+
+%section-size{
+    height: 100vh;
+    width: 90vw;
+}
+%section-h1-parameter{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 4rem;
+    @extend %lighter-font-weight;
+}
+%border-bottom-section{
+    border-bottom: 0.5px $color-secondary solid;
+}
+
+// FORMATION //
+
+%formation-link-parameter{
     visibility: hidden;
     min-width: 35vw;
     font-size: 2rem;
@@ -27,7 +42,7 @@
     text-decoration: none;
     border-radius: 10px;
 }
-%link-parameter-hover{
+%formation-link-parameter-hover{
     visibility:visible;
     background:rgba(219, 219, 255, 0.752);
     transition: 0.5s;
