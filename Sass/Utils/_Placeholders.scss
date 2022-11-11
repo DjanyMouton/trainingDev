@@ -7,13 +7,14 @@
 }
 %flex-center{
     display: flex;
+    flex-direction: column;
     justify-content:center;
     align-items: center;
 }
 %link-parameter{
     visibility: hidden;
     min-width: 35vw;
-    font-size: 2.5rem;
+    font-size: 2rem;
     height: 35vh;
     background: none;
     text-decoration: none;

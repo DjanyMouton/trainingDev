@@ -89,6 +89,10 @@ body{
         background: rgb(219, 219, 255);
         border-style: black solid 0.5px;
     }
+    .formation-div-title{
+        background: none;
+        padding-bottom: 5px;
+    }
     #openclassrooms{
         @extend %flex-center;
         background: url(/Image/Formation/openclassrooms.png);

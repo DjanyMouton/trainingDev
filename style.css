@@ -10,6 +10,7 @@
 
 #formation_section #Code42_link, #formation_section #Code42, #formation_section #udemy_link, #formation_section #udemy, #formation_section #oclock_link, #formation_section #oclock, #formation_section #openclassrooms_link, #formation_section #openclassrooms, #formation_section #formation_div_container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -17,7 +18,7 @@
 #formation_section #Code42_link, #formation_section #udemy_link, #formation_section #oclock_link, #formation_section #openclassrooms_link {
   visibility: hidden;
   min-width: 35vw;
-  font-size: 2.5rem;
+  font-size: 2rem;
   height: 35vh;
   background: none;
   text-decoration: none;
@@ -117,6 +118,10 @@
   border-radius: 10px;
   background: rgb(219, 219, 255);
   border-style: black solid 0.5px;
+}
+#formation_section .formation-div-title {
+  background: none;
+  padding-bottom: 5px;
 }
 #formation_section #openclassrooms {
   background: url(/Image/Formation/openclassrooms.png);
