@@ -10,17 +10,16 @@
 }
 body{
     @extend %max-size;
+    display: flex;
+    justify-content: center;
 }
 
 // HEADER //
 
 #header{
-    @extend %max-size;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: $color-primary;
+    @extend %section-size;
+    @extend %flex-center;
+    @extend %border-bottom-section;
     #h1_header{
         margin:10px;
         font-size: 7rem;
@@ -55,18 +54,14 @@ body{
         height: 50px;
         cursor: pointer;
     }
-    #lisere{
-        width: 90vw;
-        border-bottom: solid 0.5px $color-secondary;
-        position: absolute;
-        bottom: 0;
-    }
+    
 }
 
-// Formation //
+// FORMATION //
 
 #formation_section{
-    @extend %max-size;
+    @extend %section-size;
+    border-bottom: #2d3436 solid 0.5px;
     #formation_h1{
         margin: 20px 0;
         text-align: center;
@@ -144,6 +139,15 @@ body{
     #Code42:hover #Code42_link{
         @extend %link-parameter-hover;
     }
-    // Créer dimension pour les link
+    
+}
+
+// TRAINING //
+
+#training_section{
+    @extend %max-size;
+    // #training_div_container{
+    // }
+
 }
 

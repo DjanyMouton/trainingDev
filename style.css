@@ -1,14 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-#formation_section, #header, body {
+#training_section, body {
   height: 100vh;
   width: 100%;
+}
+
+#formation_section, #header {
+  height: 100vh;
+  width: 90vw;
 }
 
 #formation_section #formation_h1, #header #h1_header {
   font-weight: lighter;
 }
 
-#formation_section #Code42_link, #formation_section #Code42, #formation_section #udemy_link, #formation_section #udemy, #formation_section #oclock_link, #formation_section #oclock, #formation_section #openclassrooms_link, #formation_section #openclassrooms, #formation_section #formation_div_container {
+#header {
+  border-bottom: 0.5px #2d3436 solid;
+}
+
+#formation_section #Code42_link, #formation_section #Code42, #formation_section #udemy_link, #formation_section #udemy, #formation_section #oclock_link, #formation_section #oclock, #formation_section #openclassrooms_link, #formation_section #openclassrooms, #formation_section #formation_div_container, #header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,13 +48,11 @@
   background-color: #9b94fc;
 }
 
-#header {
+body {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  background-color: #9b94fc;
 }
+
 #header #h1_header {
   margin: 10px;
   font-size: 7rem;
@@ -92,13 +99,10 @@
   height: 50px;
   cursor: pointer;
 }
-#header #lisere {
-  width: 90vw;
-  border-bottom: solid 0.5px #2d3436;
-  position: absolute;
-  bottom: 0;
-}
 
+#formation_section {
+  border-bottom: #2d3436 solid 0.5px;
+}
 #formation_section #formation_h1 {
   margin: 20px 0;
   text-align: center;
