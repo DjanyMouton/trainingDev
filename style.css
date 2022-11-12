@@ -11,7 +11,7 @@
   align-items: center;
 }
 
-#formation_section #formation_h1, #header #h1_header, #training_section #training_h1 {
+#formation_section .formation-div-title, #formation_section #formation_h1, #header #h1_header, #training_section #training_h1 {
   font-weight: lighter;
 }
 
@@ -27,7 +27,7 @@
 }
 
 #header {
-  border-bottom: 0.5px #1f2425 solid;
+  border-bottom: 0.5px #111415 solid;
 }
 
 #formation_section #Code42_link, #formation_section #udemy_link, #formation_section #oclock_link, #formation_section #openclassrooms_link {
@@ -132,9 +132,26 @@ body {
   background: none;
   padding-bottom: 5px;
 }
+#formation_section .formation_wiki {
+  visibility: hidden;
+  position: absolute;
+  background: none;
+  height: 50px;
+  width: 50px;
+  right: 10px;
+  top: 10px;
+}
+#formation_section .formation_wiki img {
+  position: relative;
+}
 #formation_section #openclassrooms {
   background: url(/Image/Formation/openclassrooms.png);
   background-size: cover;
+  position: relative;
+}
+#formation_section #openclassrooms:hover .formation_wiki {
+  visibility: visible;
+  transition: 0.5s;
 }
 #formation_section #oclock {
   background: url(/Image/Formation/Oclock.png);
