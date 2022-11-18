@@ -97,11 +97,8 @@ body{
         // Tout les onglets ne pourront pas avoir la meme taille au niveau du top et right car openclassrooms et plus grand que o'clock donc changer ça après //
         right: 10px;
         top: 10px;
-        // right: 0.9rem;
-        // top: 2.3rem;
     }
     .formation_wiki img{
-        // background: none;
         position: relative;
     }
     #openclassrooms{
@@ -126,6 +123,7 @@ body{
         @extend %flex-center;
         background: url(/Image/Formation/Oclock.png);
         background-size: cover;
+        position: relative;
     }
     #oclock_link{
         @extend %flex-center;
@@ -139,6 +137,7 @@ body{
         @extend %flex-center;
         background: url(/Image/Formation/Udemy.png);
         background-size: cover;
+        position: relative;
     }
     #udemy_link{
         @extend %flex-center;
@@ -152,6 +151,7 @@ body{
         @extend %flex-center;
         background: url(/Image/Formation/42.png);
         background-size: cover;
+        position: relative;
     }
     #Code42_link{
         @extend %flex-center;

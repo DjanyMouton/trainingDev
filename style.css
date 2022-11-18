@@ -156,12 +156,15 @@ body {
 #formation_section #oclock {
   background: url(/Image/Formation/Oclock.png);
   background-size: cover;
+  position: relative;
 }
 #formation_section #udemy {
   background: url(/Image/Formation/Udemy.png);
   background-size: cover;
+  position: relative;
 }
 #formation_section #Code42 {
   background: url(/Image/Formation/42.png);
   background-size: cover;
+  position: relative;
 }/*# sourceMappingURL=style.css.map */
